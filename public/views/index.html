@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comentarios - VULNERAVEL</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+<header class="header">
+<span class="badge badge--danger">VULNERAVEL</span>
+<h1 class="title">Sistema de Comentarios</h1>
+<p class="subtitle">Demonstracao educacional de XSS.</p>
+</header>
+<section class="card">
+<div class="form-group">
+<label class="form-label" for="comentario">Seu comentario</label>
+<textarea id="comentario" class="form-textarea" rows="3" placeholder="Digite aqui..."></textarea>
+</div>
+<button id="btnEnviar" class="btn btn--primary">Enviar</button>
+</section>
+<section class="card">
+<h2 class="card__title">Comentarios</h2>
+<div id="listaComentarios" class="comments-list">
+<p class="comments-empty">Nenhum comentario ainda.</p>
+</div>
+</section>
+</div>
+<script src="/js/script.js"></script>
+</body>
+</html>
